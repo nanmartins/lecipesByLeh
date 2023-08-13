@@ -1,7 +1,22 @@
 {
   "recipes": [
-    { "id": 1, "title": "recipe 01", "servings": "1 Servings" },
-    { "id": 2, "title": "recipe 02", "servings": "2 Servings" },
-    { "id": 3, "title": "recipe 03", "servings": "3 Servings" }
+    {
+      "id": 1,
+      "title": "recipe 01",
+      "servings": "1 Servings",
+      "ingredients": "2 Onions, 500g penny pasta, 100g green pesto..."
+    },
+    {
+      "id": 2,
+      "title": "recipe 02",
+      "servings": "2 Servings",
+      "ingredients": "2 Onions, 500g penny pasta, 100g green pesto..."
+    },
+    {
+      "id": 3,
+      "title": "recipe 03",
+      "servings": "3 Servings",
+      "ingredients": "2 Onions, 500g penny pasta, 100g green pesto..."
+    }
   ]
 }
