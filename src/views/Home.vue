@@ -8,7 +8,6 @@
           <v-card class="d-flex flex-row bg-grey pa-4 my-3">
             <p class="px-4">{{ recipe.title }}</p> |
             <p class="px-4">{{ recipe.servings }}</p> |
-
             <p class="px-4">{{ recipe.ingredients }}</p>
           </v-card>
         </li>
