@@ -2,21 +2,27 @@
   "recipes": [
     {
       "id": 1,
-      "title": "recipe 01",
-      "servings": "1 Servings",
-      "ingredients": "2 Onions, 500g penny pasta, 100g green pesto..."
-    },
-    {
-      "id": 2,
-      "title": "recipe 02",
-      "servings": "2 Servings",
-      "ingredients": "2 Onions, 500g penny pasta, 100g green pesto..."
-    },
-    {
-      "id": 3,
-      "title": "recipe 03",
-      "servings": "3 Servings",
-      "ingredients": "2 Onions, 500g penny pasta, 100g green pesto..."
+      "title": "Bolo de Cenoura",
+      "img": "https://assets.unileversolutions.com/recipes-v2/67405.jpg",
+      "servings": "10 a 12 porções",
+      "prepTime": "60min",
+      "ingredients": [
+        "3 cenouras médias (cerca de 360 gramas) descascadas e cortadas em rodelas",
+        "4 ovos",
+        "1 xícara de chá de óleo de milho",
+        "1 e 1/2 xícara de chá de açúcar",
+        "2 xícaras de chá de farinha de trigo",
+        "1 colher de sopa de fermento químico em pó (fermento para bolo)",
+        "1 pitada de sal",
+        "Manteiga e farinha de trigo para untar"
+      ],
+      "prep": [
+        "Em um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture.",
+        "Acrescente o açúcar e bata novamente por 5 minutos.",
+        "Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.",
+        "Acrescente o fermento e misture lentamente com uma colher.",
+        "Asse em um forno preaquecido a 180° C por aproximadamente 40 minutos."
+      ]
     }
   ]
 }
