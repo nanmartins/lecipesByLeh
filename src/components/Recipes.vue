@@ -19,6 +19,18 @@
                   {{ ingredient }}
                 </li>
               </ul>
+
+              <hr>
+
+              <div v-if="recipe.ingredientsExtra">
+                <h3>{{ recipe.ingredientsExtra.title }}</h3>
+
+                <ul>
+                  <li v-for="(ingredient) in recipe.ingredientsExtra.ingredients" :key="ingredient.id">
+                    {{ ingredient }}
+                  </li>
+                </ul>
+              </div>
             </v-card>
 
             <hr>
@@ -28,17 +40,22 @@
               <ul>
                 <li v-for="(prep, index) in recipe.prep" :key="prep.id">
                   <v-card class="d-flex">
-                    <span>{{ index + 1 }}</span>
-                    <v-col cols="4">
+                    <!-- <span>{{ index + 1 }}</span> -->
+
+                    <v-col cols="4" align-self="center">
                       <v-img :src="prep.stepImg" class="rounded" max-width="400px"></v-img>
                     </v-col>
-                    <v-col cols="auto" align-self="center" class="d-flex flex-wrap">
+
+                    <v-col cols="8" align-self="center" class="d-flex flex-shrink-1 justify-center">
                       <p>{{ prep.step }}</p>
                     </v-col>
+
                   </v-card>
                 </li>
               </ul>
+
             </v-card>
+
           </v-card>
         </li>
       </ul>
