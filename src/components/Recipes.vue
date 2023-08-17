@@ -26,8 +26,16 @@
             <v-card>
               <h3>Modo de Preparo</h3>
               <ul>
-                <li v-for="(step, index) in recipe.prep" :key="step.id">
-                  {{ index + 1 }} - {{ step }}
+                <li v-for="(prep, index) in recipe.prep" :key="prep.id">
+                  <v-card class="d-flex">
+                    <span>{{ index + 1 }}</span>
+                    <v-col cols="4">
+                      <v-img :src="prep.stepImg" class="rounded" max-width="400px"></v-img>
+                    </v-col>
+                    <v-col cols="auto" align-self="center" class="d-flex flex-wrap">
+                      <p>{{ prep.step }}</p>
+                    </v-col>
+                  </v-card>
                 </li>
               </ul>
             </v-card>

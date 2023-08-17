@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "id": 1,
+      "id": "bolo-de-cenoura",
       "title": "Bolo de Cenoura",
       "img": "https://assets.unileversolutions.com/recipes-v2/67405.jpg",
       "servings": "10 a 12 porções",
@@ -17,11 +17,26 @@
         "Manteiga e farinha de trigo para untar"
       ],
       "prep": [
-        "Em um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture.",
-        "Acrescente o açúcar e bata novamente por 5 minutos.",
-        "Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.",
-        "Acrescente o fermento e misture lentamente com uma colher.",
-        "Asse em um forno preaquecido a 180° C por aproximadamente 40 minutos."
+        {
+          "step": "Reúna todos os ingredientes da massa.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-cenoura-de-liquidificador-01-730x548.jpeg.webp"
+        },
+        {
+          "step": "Em um recipiente, misture a farinha (peneirada), o sal e fermento. Reserve.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-cenoura-de-liquidificador-02-730x548.jpeg.webp"
+        },
+        {
+          "step": "No liquidificador, coloque as cenouras, o óleo, os ovos e o açúcar. Bata por cerca de 5 minutos e despeje a mistura em um recipiente grande",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-cenoura-de-liquidificador-03-730x548.jpeg.webp"
+        },
+        {
+          "step": "Gradualmente vá adicionando a mistura de secos e misturando com um fouet até tudo incorporar.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-cenoura-de-liquidificador-04-730x548.jpeg.webp"
+        },
+        {
+          "step": "Asse em um forno preaquecido a 180° C por aproximadamente 40 minutos.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-cenoura-de-liquidificador-05-730x548.jpeg.webp"
+        }
       ]
     }
   ]
