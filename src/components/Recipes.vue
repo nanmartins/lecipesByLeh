@@ -36,7 +36,7 @@
             <hr>
 
             <v-card>
-              <h3>Modo de Preparo</h3>
+              <h3>Modo de preparo:</h3>
               <ul>
                 <li v-for="(prep, index) in recipe.prep" :key="prep.id">
                   <v-card class="d-flex">
@@ -54,11 +54,39 @@
                 </li>
               </ul>
 
+              <div v-if="recipe.prepExtra">
+                <h3>{{ recipe.prepExtra.title }}</h3>
+
+                <ul>
+                  <li v-for="(prep, index) in recipe.prepExtra.prep" :key="prep.id">
+                    <v-card class="d-flex">
+                      <!-- <span>{{ index + 1 }}</span> -->
+
+                      <v-col cols="4" align-self="center">
+                        <v-img :src="prep.stepImg" class="rounded" max-width="400px"></v-img>
+                      </v-col>
+
+                      <v-col cols="8" align-self="center" class="d-flex flex-shrink-1 justify-center">
+                        <p>{{ prep.step }}</p>
+                      </v-col>
+                    </v-card>
+                  </li>
+                </ul>
+              </div>
+
             </v-card>
 
           </v-card>
-        </li>
-      </ul>
+
+          <v-card>
+            <ul>
+              <li v-for="(tip) in recipe.tips" :key="tip.id">
+                {{ tip }}
+              </li>
+            </ul>
+          </v-card>
+            </li>
+          </ul>
 
     </v-responsive>
   </v-container>
