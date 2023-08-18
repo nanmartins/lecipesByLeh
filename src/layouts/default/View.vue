@@ -1,5 +1,5 @@
 <template>
-  <v-main>
+  <v-main class="mt-16 pt-8 bg-primary">
     <router-view />
   </v-main>
 </template>
