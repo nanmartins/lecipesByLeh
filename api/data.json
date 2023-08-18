@@ -6,6 +6,7 @@
       "img": "https://assets.unileversolutions.com/recipes-v2/67405.jpg",
       "servings": "10 a 12 porções",
       "prepTime": "60min",
+      "category": ["Bolos", "Sobremesas", "Doces"],
       "ingredients": [
         "3 cenouras médias (cerca de 360 gramas) descascadas e cortadas em rodelas",
         "4 ovos",
@@ -86,6 +87,7 @@
       "img": "https://ciadereceitas.com.br/wp-content/uploads/2023/07/arroz-doce-cremoso-com-coco-uma-sobremesa-tradicional-e-classica-para-saborear.webp",
       "servings": "6 porções",
       "prepTime": "40min",
+      "category": ["Sobremesas", "Doces"],
       "ingredients": [
         "2 xícaras de chá de arroz",
         "4 xícaras de chá de água",
