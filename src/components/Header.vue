@@ -1,33 +1,38 @@
 <template>
-  <v-app-bar class="px-2 px-md-10 px-lg-16 bg-primary" height="10px">
-    <v-container class="py-0 px-0">
+  <v-app-bar class="px-2 px-md-10 px-lg-16 py-2 py-md-4 bg-primary">
+    <v-container class="py-2 px-0">
       <v-responsive>
-        <div class="d-flex align-center justify-center py-2">
 
-          <router-link to="/">
-            <v-img :src="LogoHeader" class="logo-img"></v-img>
-          </router-link>
+        <v-row no-gutters>
+          <v-col cols="12" class="d-flex align-center justify-center">
 
-          <!-- <div>
-            <router-link
-              to="/recipes"
-              class="mr-2 mr-md-4 text-details text-decoration-none text-caption text-md-overline"
-            >RECEITAS
+            <router-link to="/">
+              <v-img :src="LogoHeader" class="logo-img"></v-img>
             </router-link>
-            <router-link
-              to="/recipes"
-              class="text-details text-decoration-none text-caption text-md-overline"
-            >CATEGORIAS</router-link>
-          </div> -->
 
-        </div>
+          </v-col>
+          <hr w-100 color="secondary">
+          <v-col cols=12 class="d-flex align-center justify-center">
+            <div>
+              <router-link
+                to="/recipes"
+                class="mr-2 mr-md-4 text-secondary text-decoration-none text-caption text-md-overline"
+              >RECEITAS
+              </router-link>
+              <router-link
+                to="/categories"
+                class="text-secondary text-decoration-none text-caption text-md-overline"
+              >CATEGORIAS</router-link>
+            </div>
+          </v-col>
+        </v-row>
       </v-responsive>
     </v-container>
   </v-app-bar>
 </template>
 
 <script setup>
-import LogoHeader from '../assets/logo-header.png'
+import LogoHeader from '../assets/logo-header2.png'
 </script>
 
 <style scoped>
@@ -36,7 +41,7 @@ import LogoHeader from '../assets/logo-header.png'
 }
 @media (max-width: 560px) {
   .logo-img {
-    width: 130px;
+    width: 140px;
   }
 }
 </style>

@@ -17,10 +17,20 @@ const routes = [
       },
       {
         path: '/recipes',
-        component: () => import('@/components/Recipes.vue')
+        component: () => import('@/views/Recipes.vue')
+      },
+      {
+        path: '/categories',
+        component: () => import('@/views/Categories.vue')
+      },
+      {
+        path: '/recipe/:id',
+        name: 'RecipeView',
+        component: () => import('@/components/RecipeView.vue')
       }
     ],
   },
+
 ]
 
 const router = createRouter({
