@@ -32,7 +32,7 @@
 </template>
 
 <script setup>
-import LogoHeader from '../assets/logo-header2.png'
+import LogoHeader from '../assets/logo-header.png'
 </script>
 
 <style scoped>

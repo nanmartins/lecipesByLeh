@@ -133,6 +133,173 @@
       "tips": [
         "Adicione paçoca a gosto para uma versão diferente – pode ser na hora de servir, como uma farofinha por cima. Também fica delicioso servir com mel!"
       ]
+    },
+
+    {
+      "id": "lasanha",
+      "title": "Lasanha",
+      "img": "https://images.unsplash.com/photo-1619895092538-128341789043?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "servings": "6 porções",
+      "prepTime": "60min",
+      "category": ["Massa", "Salgados"],
+      "ingredients": [
+        "1 massa de lasanha pronta",
+        "1 fio de azeite",
+        "500 gramas de presunto",
+        "500 gramas de queijo mussarela",
+        "500 gramas de carne moída",
+        "340 gramas de molho de tomate",
+        "Sal e pimenta-do-reino a gosto",
+        "Orégano a gosto"
+      ],
+      "ingredientsExtra": {},
+      "prep": [
+        {
+          "step": "Reúna todos os ingredientes.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-01-730x547.jpeg.webp"
+        },
+        {
+          "step": "Em uma panela antiaderente, esquente um fio de azeite e refogue a carne moída.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-02-730x549.jpeg.webp"
+        },
+        {
+          "step": "Quando ela estiver cozida, adicione o molho de tomate, o sal, o orégano e outros temperos de sua preferência. Misture novamente e reserve.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-03-730x547.jpeg.webp"
+        },
+        {
+          "step": "Em outra panela, coloque água e cozinhe a massa para lasanha conforme as instruções da embalagem.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-04-730x547.jpeg.webp"
+        },
+        {
+          "step": "Para montar, coloque um pouco do molho e espalhe na forma.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-05-730x547.jpeg.webp"
+        },
+        {
+          "step": "Depois faça uma camada com a massa da lasanha.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-06-730x547.jpeg.webp"
+        },
+        {
+          "step": "Em seguida, uma camada de presunto.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-07-730x547.jpeg.webp"
+        },
+        {
+          "step": "E por fim uma camada de queijo.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-08-730x549.jpeg.webp"
+        },
+        {
+          "step": "Repita o processo até chegar ao topo da forma e leve ao forno preaquecido a 180ºC cerca de 20 a 30 minutos.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-09-730x547.jpeg.webp"
+        },
+        {
+          "step": "Retire do forno e sirva. Bom apetite!",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/lasanha-10-730x547.jpeg.webp"
+        }
+      ],
+      "prepExtra": {},
+      "tips": [
+        "O segredo para valorizar o sabor da carne moída na lasanha é deixar ela cozinhar bem.",
+        "Para deixar a lasanha ainda mais especial, depois de montar e finalizar com a camada de mussarela, coloque pedacinhos de manteiga gelada para garantir que gratine uniformemente.",
+        "Na hora de cozinhar a massa da lasanha, preste atenção no tempo indicado de cozimento para ela não ficar muito mole."
+      ]
+    },
+
+    {
+      "id": "coxinha-de-frango-catupiry",
+      "title": "Coxinha de Frango Catupiry",
+      "img": "https://www.thespruceeats.com/thmb/5ftNyXO0kOOxPVU2uBHF45k0OGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/coxinha-brazilian-chicken-croquettes-3029668-Hero-5b7d5f9546e0fb00252abc5f.jpg",
+      "servings": "24 unidades",
+      "prepTime": "60min",
+      "category": ["Salgados"],
+      "ingredients": [
+        "500 gramas de peito de frango (sem osso)",
+        "1 cebola cortada grosseiramente",
+        "3 dentes de alho picados grosseiramente",
+        "1 envelope de caldo de galinha em pó (pode ser tablete)",
+        "3 colheres de sopa de shoyu",
+        "2 colheres de molho de tomate (pronto)",
+        "1 colher de sopa de mostarda",
+        "Sal e pimenta-do-reino a gosto",
+        "2 colheres de sopa (cheias) de Catupiry",
+        "1 colher de sopa de salsinha picada"
+      ],
+      "ingredientsExtra": {
+        "title": "Ingredientes da massa:",
+        "ingredients": [
+          "500ml do caldo do cozimento do frango",
+          "50 gramas de manteiga sem sal",
+          "1 colher de café de sal",
+          "250 gramas de farinha de trigo",
+          "Água gelada (para empanar)",
+          "Farinha de rosca (para empanar)"
+        ]
+      },
+      "prep": [
+        {
+          "step": "Em uma panela de pressão, adicione o frango, a cebola, o alho, o caldo de galinha, o shoyu, o molho de tomate, a mostarda, o sal, a pimenta e cubra com água.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-2-730x548.jpeg.webp"
+        },
+        {
+          "step": "Tampe a panela, deixe pegar pressão e conte 20 minutos.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-3-730x548.jpeg.webp"
+        },
+        {
+          "step": "Coe a água e reserve ela (para usar no preparo da massa).",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-4-730x548.jpeg.webp"
+        },
+        {
+          "step": "Desfie o frango e separe cerca de 1 xícara de chá para o recheio. O restante você pode congelar para outro preparos.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-5-730x548.jpeg.webp"
+        },
+        {
+          "step": "Acrescente o Catupiry, a salsinha e misture bem. Reserve.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-6-730x548.jpeg.webp"
+        }
+      ],
+      "prepExtra": {
+        "title": "Modo de preparo massa:",
+        "prep" : [
+          {
+            "step": "Em uma panela, adicione a água que o frango foi cozido, a manteiga, o sal e deixe ferver.",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-7-730x548.jpeg.webp"
+          },
+          {
+            "step": "Assim que ferver e a manteiga derreter por completo, diminua o fogo, acrescente a farinha e vá misturando até formar uma massa e começar a desgrudar da panela (deixe cozinhar bem para que não fique com gosto de farinha crua).",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-8-730x548.jpeg.webp"
+          },
+          {
+            "step": "Transfira a massa para uma superfície lisa e deixe esfriar (cuidado para ela não formar vapor e amolecer. Por isso vá trocando ela de lugar).",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-9-730x548.jpeg.webp"
+          },
+          {
+            "step": "Assim que mornar, sove a massa por alguns minutos até ela ficar bem lisinha.",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-10-730x548.jpeg.webp"
+          },
+          {
+            "step": "Pegue pequenas porções da massa e molde em formato de bolinhas.",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-11-730x548.jpeg.webp"
+          },
+          {
+            "step": "Vá abrindo as bolinhas, achatando elas nas mãos, coloque um pouco do recheio e feche moldando em formato de coxinha.",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-12-730x548.jpeg.webp"
+          },
+          {
+            "step": "Passe as coxinhas na água gelada e depois empane na farinha de rosca.",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-13-730x548.jpeg.webp"
+          },
+          {
+            "step": "Frite elas em óleo bem quente.",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-14-730x548.jpeg.webp"
+          },
+          {
+            "step": "Agora é só servir. Bom apetite!",
+            "stepImg": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango-com-catupiry-16-730x548.jpeg.webp"
+          }
+        ]
+      },
+      "tips": [
+        "As coxinhas podem ser congeladas (já empanadas).",
+        "Essa massa é bem versátil e pode ser usada para outros salgados como bolinhas de queijo ou risoles de palmito."
+      ]
     }
   ]
 }
