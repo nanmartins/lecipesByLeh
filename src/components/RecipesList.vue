@@ -22,42 +22,27 @@
         </div>
       </v-row> -->
 
-      <!-- <v-carousel
-        cycle
-        height="300"
-        hide-delimiter-background
-        show-arrows="hover"
-        :per-page="3"
-        color="secondary"
-      >
-        <v-carousel-item
-          v-for="(recipe, i) in recipes"
-          :key="i"
+      <v-sheet class="d-flex justify-center bg-primary mx-auto" max-width="1165px">
+        <v-slide-group
+          show-arrows
+          prev-icon="mdi-chevron-left text-primary bg-secondary rounded-xl"
+          next-icon="mdi-chevron-right text-primary bg-secondary rounded-xl"
         >
-          <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
-            <v-card
-              class="d-flex flex-column mx-1 mb-4"
-              :style="{ width: screenSize >= 960 ? '350px' : '170px' }"
-            >
-              <v-img :src="recipe.img"></v-img>
-              <v-card-title>{{ recipe.title }}</v-card-title>
-            </v-card>
-          </router-link>
-
-        </v-carousel-item>
-      </v-carousel> -->
-      <v-sheet class="d-flex justify-center bg-primary">
-        <v-slide-group class="custom-slide-group" show-arrows>
           <v-slide-group-item
             v-for="(recipe) in recipes"
             :key="recipe.id"
           >
             <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
               <v-card
-                class="d-flex flex-column mx-1 mb-4"
-                :style="{ width: screenSize >= 960 ? '346px' : '235px' }"
+                class="d-flex flex-column mx-1 mb-4 bg-details pa-1"
+                :style="{ width: screenSize >= 960 ? '346px' : '246px' }"
               >
-                <v-img :src="recipe.img"></v-img>
+                <v-img
+                  :src="recipe.img"
+                  :style="{ height: screenSize <= 960 ? '165px' : 'auto' }"
+                  class="rounded"
+                  height="165px"
+                ></v-img>
                 <v-card-title>{{ recipe.title }}</v-card-title>
               </v-card>
             </router-link>
@@ -65,7 +50,6 @@
           </v-slide-group-item>
         </v-slide-group>
       </v-sheet>
-
 
     </v-responsive>
   </v-container>
@@ -90,9 +74,3 @@ onMounted(() => {
   })
 })
 </script>
-
-<style lang="scss">
-// .custom-slide-group {
-//   $slide-group-prev-basis: 30px;
-// }
-</style>

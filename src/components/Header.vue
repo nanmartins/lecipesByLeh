@@ -12,17 +12,18 @@
 
           </v-col>
           <hr w-100 color="secondary">
-          <v-col cols=12 class="d-flex align-center justify-center">
+          <v-col class="d-flex align-center justify-center">
             <div>
               <router-link
                 to="/recipes"
-                class="mr-2 mr-md-4 text-secondary text-decoration-none text-caption text-md-overline"
+                class="px-2 py-2 text-secondary text-decoration-none text-caption text-md-overline"
               >RECEITAS
               </router-link>
-              <router-link
+              <!-- <router-link
                 to="/categories"
                 class="text-secondary text-decoration-none text-caption text-md-overline"
-              >CATEGORIAS</router-link>
+              >CATEGORIAS
+              </router-link> -->
             </div>
           </v-col>
         </v-row>
