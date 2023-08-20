@@ -1,9 +1,9 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class="align-center text-center">
+  <!-- <v-container class="fill-height"> -->
+    <v-responsive>
       <RecipesList />
     </v-responsive>
-  </v-container>
+  <!-- </v-container> -->
 </template>
 
 <script setup>

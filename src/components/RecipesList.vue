@@ -25,25 +25,27 @@
       <v-sheet class="d-flex justify-center bg-primary mx-auto" max-width="1165px">
         <v-slide-group
           show-arrows
-          prev-icon="mdi-chevron-left text-primary bg-secondary rounded-xl"
-          next-icon="mdi-chevron-right text-primary bg-secondary rounded-xl"
+          prev-icon="mdi-chevron-left text-primary bg-details rounded-xl"
+          next-icon="mdi-chevron-right text-primary bg-details rounded-xl"
         >
           <v-slide-group-item
             v-for="(recipe) in recipes"
             :key="recipe.id"
           >
-            <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
+            <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none pa-0 ma-0">
               <v-card
-                class="d-flex flex-column mx-1 mb-4 bg-details pa-1"
-                :style="{ width: screenSize >= 960 ? '346px' : '246px' }"
+                class="d-flex flex-column mx-xs-0 mx-1 mx-md-1 mb-4 bg-details px-1 py-1 ma-0"
+                :style="{ width: screenSize >= 960 ? '346px' : '278px' }"
               >
                 <v-img
+                  :style="{ height: screenSize <= 960 ? '180px' : 'auto' }"
                   :src="recipe.img"
-                  :style="{ height: screenSize <= 960 ? '165px' : 'auto' }"
                   class="rounded"
-                  height="165px"
                 ></v-img>
-                <v-card-title>{{ recipe.title }}</v-card-title>
+                <v-card-title
+                  class="text-primary font-weight-bold"
+                  style="text-shadow: 1px 1px grey"
+                >{{ recipe.title }}</v-card-title>
               </v-card>
             </router-link>
 

@@ -1,18 +1,62 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class="align-center text-center fill-height">
-      <div>
-        <h2>{{ recipe.title }}</h2>
-        <div>
-          <v-card>
-            <v-img :src="recipe.img"></v-img>
-            <!-- <v-card-title>{{ recipe.title }}</v-card-title> -->
-            <!-- Mais informações da receita aqui -->
+    <v-responsive class="d-flex justify-center align-center text-center fill-height">
+      <v-col>
+        <!-- <h2>{{ recipe.title }}</h2> -->
+        <!-- <div class="mx-auto"> -->
+          <v-card
+            max-width="1200px"
+            class="mx-auto px-1 px-md-2 py-1 bg-details"
+          >
+            <!-- style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.5) 20% 85%,rgba(255, 255, 255, 0.05)" -->
+            <v-img :src="recipe.img" class="rounded"></v-img>
+            <h2
+              class="text-h4 text-md-h3 text-primary py-2 font-weight-bold"
+              style="text-shadow: 1px 2px grey"
+            >{{ recipe.title }}
+            </h2>
+
+            <!-- INGREDIENTES -->
+            <div class="bg-white rounded px-0 px-md-4">
+              <h3 class="py-4 text-h6 text-md-h5 text-grey text-decoration-underline">Ingredientes:</h3>
+              <ul class="pb-4">
+                <v-list
+                  v-for="(ingredient) in recipe.ingredients"
+                  :key="ingredient.id"
+                  class="list-decoration-none py-0 px-2 px-md-4 text-left"
+                >
+                  <v-checkbox
+                    :label="ingredient"
+                    color="details"
+                    class="ma-0 pa-0 d-flex"
+                    :style="{'text-decoration': ingredient.checked ? 'line-through' : 'none'}"
+                  ></v-checkbox>
+                </v-list>
+              </ul>
+
+              <hr class="mx-4 mx-md-6">
+
+              <!-- INGREDIENTES EXTRA (caso houver) -->
+              <div v-if="recipe.ingredientsExtra" class="py-4">
+                <h3 class="text-h6 text-md-h5 text-grey text-decoration-underline">{{ recipe.ingredientsExtra.title }}</h3>
+
+                <ul>
+                  <v-list
+                    v-for="(ingredient) in recipe.ingredientsExtra.ingredients"
+                    :key="ingredient.id"
+                    class="list-decoration-none py-0 px-2 px-md-4 text-left"
+                    >
+                    <v-checkbox :label="ingredient" color="details" class="ma-0 pa-0 d-flex"></v-checkbox>
+
+                  </v-list>
+                </ul>
+              </div>
+
+            </div>
+
           </v-card>
-        </div>
-      </div>
+
+      </v-col>
     </v-responsive>
-  </v-container>
 </template>
 
 <script setup>
