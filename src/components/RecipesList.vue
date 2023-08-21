@@ -1,28 +1,35 @@
 <template>
-  <v-container class="fill-height px-0">
-    <v-responsive class="align-center text-center">
-      <h1 class="text-details py-4">Receitas</h1>
+  <!-- <v-container class="fill-height px-0"> -->
+    <v-responsive class="align-center text-center mx-auto" max-width="1200px">
+      <h1
+        class="text-details2 py-4"
+        style="text-shadow: 1px 1px grey;"
+      >Receitas Recentes</h1>
 
-      <!-- <v-row dense class="d-flex flex-wrap justify-center px-0">
+      <v-row dense class="d-flex flex-wrap justify-center px-0">
         <div
-          v-for="(recipe) in recipes"
+          v-for="(recipe) in recentRecipes"
           :key="recipe.id"
 
         >
           <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
             <v-card
-              class="d-flex flex-column mx-1 mb-4"
+              class="d-flex flex-column mx-1 mb-4 bg-details2 px-1 pt-1"
               :style="{ width: screenSize >= 960 ? '350px' : '170px' }"
             >
-              <v-img :src="recipe.img"></v-img>
-              <v-card-title>{{ recipe.title }}</v-card-title>
+              <v-img :src="recipe.img" class="rounded"></v-img>
+              <v-card-title
+                class="pa-0 ma-0 py-1 px-1 text-h6 text-md-h5 text-primary font-weight-bold"
+                style="text-shadow: 1px 1px grey"
+              >{{ recipe.title }}</v-card-title>
             </v-card>
           </router-link>
 
         </div>
-      </v-row> -->
+      </v-row>
 
-      <v-sheet class="d-flex justify-center bg-primary mx-auto" max-width="1165px">
+    </v-responsive>
+      <!-- <v-sheet class="d-flex justify-center bg-primary mx-auto" max-width="1165px">
         <v-slide-group
           show-arrows
           prev-icon="mdi-chevron-left text-primary bg-details rounded-xl"
@@ -51,18 +58,27 @@
 
           </v-slide-group-item>
         </v-slide-group>
-      </v-sheet>
+      </v-sheet> -->
 
-    </v-responsive>
-  </v-container>
+  <!-- </v-container> -->
 </template>
 
 <script setup>
-import { onBeforeMount, onMounted, ref, watch } from 'vue'
+import { computed, onBeforeMount, onMounted, ref, watch } from 'vue'
 import api from '../../api/data.json'
 
 const recipes = ref(api.recipes)
 const screenSize = ref(window.innerWidth)
+
+const recentRecipes = computed(() => {
+  const sortedRecipes = recipes.value.slice().sort((a, b) => new Date(b.dateFormatted) - new Date(a.dateFormatted))
+  return sortedRecipes.slice(0, 6)
+})
+
+recipes.value.forEach(recipe => {
+  recipe.dateFormatted = new Date(recipe.date.split('/').reverse().join('-'))
+})
+
 
 onMounted(() => {
   const handleSize = () => {

@@ -5,7 +5,7 @@
         <!-- <div class="mx-auto"> -->
           <v-card
             max-width="1200px"
-            class="mx-auto px-1 px-md-2 py-1 bg-details"
+            class="mx-auto px-1 px-md-2 py-1 bg-details2"
           >
             <!-- style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.5) 20% 85%,rgba(255, 255, 255, 0.05)" -->
             <v-img :src="recipe.img" class="rounded"></v-img>
@@ -22,7 +22,7 @@
                 <v-list
                   v-for="(ingredient) in recipe.ingredients"
                   :key="ingredient.id"
-                  class="list-decoration-none py-0 px-2 px-md-4 text-left"
+                  class="list-decoration-none py-0 px-0 pr-2 px-md-4 text-left"
                 >
                   <v-checkbox
                     :label="ingredient"

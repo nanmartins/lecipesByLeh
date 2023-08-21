@@ -23,7 +23,7 @@ export default createVuetify({
           primary: '#E3FFC3',
           secondary: '#FF89C0',
           details: '#FBA083',
-          // details2: '#FFB4A2'
+          details2: '#FFB4A2'
         },
       },
     },

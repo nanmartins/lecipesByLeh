@@ -7,6 +7,7 @@
       "servings": "10 a 12 porções",
       "prepTime": "60min",
       "category": ["Bolos", "Sobremesas", "Doces"],
+      "date": "18/08/2023",
       "ingredients": [
         "3 cenouras médias (cerca de 360 gramas) descascadas e cortadas em rodelas",
         "4 ovos",
@@ -88,6 +89,7 @@
       "servings": "6 porções",
       "prepTime": "40min",
       "category": ["Sobremesas", "Doces"],
+      "date": "20/08/2023",
       "ingredients": [
         "2 xícaras de chá de arroz",
         "4 xícaras de chá de água",
@@ -141,7 +143,8 @@
       "img": "https://receitatodahora.com.br/wp-content/uploads/2021/11/massa-de-lasanha-caseira-scaled.jpg",
       "servings": "6 porções",
       "prepTime": "60min",
-      "category": ["Massa", "Salgados"],
+      "category": ["Massas", "Salgados"],
+      "date": "20/08/2023",
       "ingredients": [
         "1 massa de lasanha pronta",
         "1 fio de azeite",
@@ -209,7 +212,8 @@
       "img": "https://www.thespruceeats.com/thmb/5ftNyXO0kOOxPVU2uBHF45k0OGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/coxinha-brazilian-chicken-croquettes-3029668-Hero-5b7d5f9546e0fb00252abc5f.jpg",
       "servings": "24 unidades",
       "prepTime": "60min",
-      "category": ["Salgados"],
+      "category": ["Salgados", "Massas"],
+      "date": "21/08/2023",
       "ingredients": [
         "500 gramas de peito de frango (sem osso)",
         "1 cebola cortada grosseiramente",
@@ -299,6 +303,136 @@
       "tips": [
         "As coxinhas podem ser congeladas (já empanadas).",
         "Essa massa é bem versátil e pode ser usada para outros salgados como bolinhas de queijo ou risoles de palmito."
+      ]
+    },
+
+    {
+      "id": "bolo-de-banana",
+      "title": "Bolo de Banana",
+      "img": "https://receitatodahora.com.br/wp-content/uploads/2022/08/bolo-de-banana-de-liquidificador-facil.jpg",
+      "servings": "8 porções",
+      "prepTime": "70min",
+      "category": ["Bolos", "Doces", "Sobremesas"],
+      "date": "21/08/2023",
+      "ingredients": [
+        "5 bananas (reserve uma para decorar)",
+        "4 ovos",
+        "1 xícara de chá de açúcar demerara",
+        "1/2 xícara de chá de óleo",
+        "1 colher de sopa de canela",
+        "1 colher de sopa de fermento em pó",
+        "200 gramas de aveia em flocos finos",
+        "Opcional: castanha de caju ou do pará picadinha e uvas passas"
+      ],
+      "ingredientsExtra": {},
+      "prep": [
+        {
+          "step": "Reúna todos os ingredientes.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-banana-com-aveia-facil-1-730x548.jpg.webp"
+        },
+        {
+          "step": "No liquidificador, bata os ovos, o óleo, o açúcar e 4 das 5 bananas. Deixe uma para colocar picadinha na massa.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-banana-com-aveia-facil-2-730x548.jpg.webp"
+        },
+        {
+          "step": "Coloque essa mistura em uma tigela e acrescente a aveia, a canela, o fermento e 1 banana picada. Misture delicadamente.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-banana-com-aveia-facil-3-730x548.jpg.webp"
+        },
+        {
+          "step": "Leve para assar em uma forma untada com manteiga ou óleo e polvilhada com açúcar, em um forno preaquecido a 180ºC, por 40 minutos ou até doura.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-banana-com-aveia-facil-4-730x548.jpg.webp"
+        },
+        {
+          "step": "Espere amornar e desenforme. Agora é só servir, bom apetite!",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-banana-com-aveia-facil-5-730x548.jpg.webp"
+        }
+      ],
+      "prepExtra": {},
+      "tips": [
+        "Adicione na massa gotas de chocolate amargo, fica delicioso.",
+        "Sirva com chá de maçã e canela – fica uma harmonia perfeita de aromas."
+      ]
+    },
+
+    {
+      "id": "strogonoff-de-carne",
+      "title": "Strogonoff de Carne",
+      "img": "https://frigorificoarvoredo.com.br/blog/wp-content/uploads/2018/01/Receita-de-strogonoff-de-carne-simples-e-pratica.jpg",
+      "servings": "8 porções",
+      "prepTime": "30min",
+      "category": ["Carnes", "Molhos"],
+      "date": "21/08/2023",
+      "ingredients": [
+        "1kg de patinho cortado em tirinhas",
+        "1 cebola picada",
+        "2 dentes de alho picado ou amassado",
+        "3 xícaras de chá de creme de leite fresco (500 gramas)",
+        "1/2 xícara de chá de extrato de tomate",
+        "2 colheres de sopa de molho inglês",
+        "1/4 xícara de chá de conhaque",
+        "1 colher de café (bem cheia) de mostarda",
+        "300 gramas de cogumelo paris fresco cortado em fatias",
+        "3 colheres de sopa de azeite de oliva",
+        "Sal a e pimenta-do-reino a gosto"
+      ],
+      "ingredientsExtra": {},
+      "prep": [
+        {
+          "step": "Reúna todos os ingredientes.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-01-730x548.jpeg.webp"
+        },
+        {
+          "step": "Em uma frigideira grande e alta (ou panela), esquente um fio de azeite e refogue os cogumelos até dourarem. Cuidado: não deixe eles murcharem muito.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-02-730x548.jpeg.webp"
+        },
+        {
+          "step": "Assim que dourarem, reserve em um recipiente.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-03-730x548.jpeg.webp"
+        },
+        {
+          "step": "Na mesma frigideira, coloque mais um fio de azeite e adicione a carne para dourar. Faça esse processo com pequenas porções da carne e não mexa.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-04-730x548.jpeg.webp"
+        },
+        {
+          "step": "Assim que toda a carne dourar bem, reserve com os cogumelos.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-05-730x548.jpeg.webp"
+        },
+        {
+          "step": "Ainda na mesma frigideira, regue com mais azeite e refogue a cebola e o alho até dourarem.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-06-730x548.jpeg.webp"
+        },
+        {
+          "step": "Adicione o conhaque. Mexa até evaporar e deixar o refogado cremoso.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-07-730x548.jpeg.webp"
+        },
+        {
+          "step": "Enquanto isso, tempere a carne e os cogumelos com sal e pimenta.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-08-730x548.jpeg.webp"
+        },
+        {
+          "step": "Na frigideira, acrescente o extrato de tomate, o molho inglês e a mostarda. Misture bem.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-09-730x548.jpeg.webp"
+        },
+        {
+          "step": "Junte a carne e os cogumelos com o refogado e misture bem.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-10-730x548.jpeg.webp"
+        },
+        {
+          "step": "Despeje o creme de leite fresco, misture, acerte o sal se precisar e desligue o fogo.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-11-730x548.jpeg.webp"
+        },
+        {
+          "step": "Agora é só servir. Bom apetite!",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-12-730x548.jpeg.webp"
+        }
+      ],
+      "prepExtra": {},
+      "tips": [
+        "O segredo para cortar a carne em tiras é olhar a direção da fibra da carne e cortar as tiras na direção contrária. Dessa forma ela ficará mais macia.",
+        "E se preferir utilizar outro corte de carne, como alcatra ou outro de sua preferência.",
+        "No caso de não ter cogumelos paris frescos, você pode substituir por champignon em conserva.",
+        "Esse preparo fica incrível com o creme de leite fresco, mas se não tiver ou encontrar, use o creme de leite em lata.",
+        "O strogonoff clássico pede os acompanhamentos tradicionais, por isso sirva ele com batatas palha ou batata frita, mantendo o preparo clássico aqui no Brasil."
       ]
     }
   ]
