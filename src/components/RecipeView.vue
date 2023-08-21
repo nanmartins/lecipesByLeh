@@ -8,7 +8,11 @@
             class="mx-auto px-1 px-md-2 py-1 bg-details2"
           >
             <!-- style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.5) 20% 85%,rgba(255, 255, 255, 0.05)" -->
-            <v-img :src="recipe.img" class="rounded"></v-img>
+            <v-img
+              :src="recipe.img"
+              class="rounded"
+              style="border: 1px solid #E3FFC3"
+            ></v-img>
             <h2
               class="text-h4 text-md-h3 text-primary py-2 font-weight-bold"
               style="text-shadow: 1px 2px grey"
@@ -16,7 +20,10 @@
             </h2>
 
             <!-- INGREDIENTES -->
-            <div class="bg-white rounded px-0 px-md-4">
+            <div
+              class="bg-white rounded px-0 px-md-4"
+              style="border: 1px solid #E3FFC3"
+            >
               <h3 class="py-4 text-h6 text-md-h5 text-grey text-decoration-underline">Ingredientes:</h3>
               <ul class="pb-4">
                 <v-list
