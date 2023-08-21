@@ -21,15 +21,15 @@
 
             <!-- INGREDIENTES -->
             <div
-              class="bg-white rounded px-0 px-md-4"
+              class="bg-backgrounds2 rounded px-0 px-md-4"
               style="border: 1px solid #E3FFC3"
             >
-              <h3 class="py-4 text-h6 text-md-h5 text-grey text-decoration-underline">Ingredientes:</h3>
+              <h3 class="py-4 text-h6 text-md-h5 text-grey text-decoration-underline font-weight-bold">Ingredientes:</h3>
               <ul class="pb-4">
                 <v-list
                   v-for="(ingredient) in recipe.ingredients"
                   :key="ingredient.id"
-                  class="list-decoration-none py-0 px-0 pr-2 px-md-4 text-left"
+                  class="list-decoration-none py-0 px-0 pr-2 px-md-4 text-left bg-backgrounds2"
                 >
                   <v-checkbox
                     :label="ingredient"
@@ -44,13 +44,13 @@
 
               <!-- INGREDIENTES EXTRA (caso houver) -->
               <div v-if="recipe.ingredientsExtra" class="py-4">
-                <h3 class="text-h6 text-md-h5 text-grey text-decoration-underline">{{ recipe.ingredientsExtra.title }}</h3>
+                <h3 class="text-h6 text-md-h5 text-grey text-decoration-underline font-weight-bold">{{ recipe.ingredientsExtra.title }}</h3>
 
                 <ul>
                   <v-list
                     v-for="(ingredient) in recipe.ingredientsExtra.ingredients"
                     :key="ingredient.id"
-                    class="list-decoration-none py-0 px-2 px-md-4 text-left"
+                    class="list-decoration-none py-0 px-2 px-md-4 text-left bg-backgrounds2"
                     >
                     <v-checkbox :label="ingredient" color="details" class="ma-0 pa-0 d-flex"></v-checkbox>
 
