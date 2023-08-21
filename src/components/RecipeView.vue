@@ -14,7 +14,7 @@
               style="border: 1px solid #E3FFC3"
             ></v-img>
             <h2
-              class="text-h4 text-md-h3 text-primary py-2 font-weight-bold"
+              class="text-h4 text-md-h3 text-white py-2 font-weight-bold"
               style="text-shadow: 1px 2px grey"
             >{{ recipe.title }}
             </h2>

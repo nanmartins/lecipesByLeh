@@ -15,7 +15,7 @@
           <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
             <v-card
               class="d-flex flex-column mx-1 mb-4 bg-details2 px-1 pt-1"
-              :style="{ width: screenSize >= 960 ? '350px' : '170px' }"
+              :style="{ width: screenSize >= 960 ? '350px' : '180px' }"
             >
               <v-img
                 :src="recipe.img"
@@ -23,7 +23,7 @@
                 style="border: 1px solid #E3FFC3"
               ></v-img>
               <v-card-title
-                class="pa-0 ma-0 py-1 px-1 text-h6 text-md-h5 text-primary font-weight-bold"
+                class="pa-0 ma-0 py-1 px-1 text-h6 text-md-h5 text-white font-weight-bold"
                 style="text-shadow: 1px 1px grey"
               >{{ recipe.title }}</v-card-title>
             </v-card>
