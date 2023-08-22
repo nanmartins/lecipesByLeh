@@ -15,7 +15,7 @@
           <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
             <v-card
               class="d-flex flex-column mx-1 mb-4 bg-details2 px-1 pt-1"
-              :style="{ width: screenSize >= 960 ? '350px' : '180px' }"
+              :style="{ width: breakpointsStore.screenSize >= 960 ? '350px' : '180px' }"
             >
               <v-img
                 :src="recipe.img"
@@ -68,31 +68,29 @@
 </template>
 
 <script setup>
-import { computed, onBeforeMount, onMounted, ref, watch } from 'vue'
+import { useBreakpointsStore } from '@/store/breakpoints.js'
+import { computed, ref, onBeforeUnmount } from 'vue'
 import api from '../../api/data.json'
 
 const recipes = ref(api.recipes)
-const screenSize = ref(window.innerWidth)
 
+// Breakpoint store
+const breakpointsStore = useBreakpointsStore()
+breakpointsStore.startResizeListener()
+
+onBeforeUnmount(() => {
+  breakpointsStore.stopResizeListener()
+})
+
+// Ordering by latest first
 const recentRecipes = computed(() => {
   const sortedRecipes = recipes.value.slice().sort((a, b) => new Date(b.dateFormatted) - new Date(a.dateFormatted))
   return sortedRecipes.slice(0, 6)
 })
 
+// Formating API date value
 recipes.value.forEach(recipe => {
   recipe.dateFormatted = new Date(recipe.date.split('/').reverse().join('-'))
 })
 
-
-onMounted(() => {
-  const handleSize = () => {
-    screenSize.value = window.innerWidth
-  }
-
-  window.addEventListener('resize', handleSize)
-
-  onBeforeMount(() => {
-    window.removeEventListener('resize', handleSize)
-  })
-})
 </script>

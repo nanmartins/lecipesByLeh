@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="bg-primary">
     <Header />
     <default-view />
   </v-app>

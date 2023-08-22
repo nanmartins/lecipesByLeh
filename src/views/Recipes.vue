@@ -4,9 +4,8 @@
       max-width="1200px"
       class="text-center mx-auto"
     >
-
       <h1
-        class="text-details"
+        class="text-details2"
         style="text-shadow: 1px 1px grey"
       >Receitas</h1>
       <!-- {{ recipes }} -->
@@ -21,7 +20,7 @@
           <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
             <v-card
               class="d-flex flex-column mx-1 mb-4 bg-details2 px-1 pt-1"
-              :style="{ width: screenSize >= 960 ? '350px' : '180px' }"
+              :style="{ width: breakpointsStore.screenSize >= 960 ? '350px' : '180px' }"
             >
               <v-img
                 :src="recipe.img"
@@ -44,21 +43,18 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeMount } from 'vue'
+import { useBreakpointsStore } from '@/store/breakpoints.js'
+import { computed, ref, onBeforeUnmount } from 'vue'
 import api from '../../api/data.json'
 
 const recipes = ref(api.recipes)
-const screenSize = ref(window.innerWidth)
 
-onMounted(() => {
-  const handleSize = () => {
-    screenSize.value = window.innerWidth
-  }
+// Breakpoint Store
+const breakpointsStore = useBreakpointsStore()
+breakpointsStore.startResizeListener()
 
-  window.addEventListener('resize', handleSize)
-
-  onBeforeMount(() => {
-    window.removeEventListener('resize', handleSize)
-  })
+onBeforeUnmount(() => {
+  breakpointsStore.stopResizeListener()
 })
+
 </script>
