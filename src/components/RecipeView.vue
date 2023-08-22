@@ -6,18 +6,36 @@
           <v-card
             max-width="1200px"
             class="mx-auto px-1 px-md-2 py-1 bg-details2"
+            style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.5) 20% 85%,rgba(255, 255, 255, 0.05)"
           >
-            <!-- style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.5) 20% 85%,rgba(255, 255, 255, 0.05)" -->
             <v-img
               :src="recipe.img"
               class="rounded"
               style="border: 1px solid #E3FFC3"
             ></v-img>
             <h2
-              class="text-h4 text-md-h3 text-white py-2 font-weight-bold"
+              class="text-h4 text-md-h3 text-primary py-2 font-weight-bold"
               style="text-shadow: 1px 2px grey"
             >{{ recipe.title }}
             </h2>
+            <div class="d-flex justify-center pb-4 pt-2">
+              <div class="d-flex align-center px-2">
+                <v-icon
+                  icon="mdi:mdi-account"
+                  color="primary"
+                  style="text-shadow: 1px 1px grey"
+                ></v-icon>
+                <p class="text-textGray">{{ recipe.servings }}</p>
+              </div>
+              <div class="d-flex align-center px-2">
+                <v-icon
+                  icon="mdi:mdi-clock-time-four"
+                  color="primary"
+                  style="text-shadow: 1px 1px grey"
+                ></v-icon>
+                <p class="text-textGray pl-1">{{ recipe.prepTime }}</p>
+              </div>
+            </div>
 
             <!-- INGREDIENTES -->
             <div
@@ -62,7 +80,10 @@
 
             <!-- Prep guide -->
             <div>
-              <h1>Modo de preparo:</h1>
+              <h1
+                class="text-primary"
+                style="text-shadow: 1px 1px grey;"
+              >Modo de preparo:</h1>
 
               <ul style="border: 1px solid #E3FFC3"  class="rounded">
                 <v-list
@@ -81,20 +102,20 @@
                         height: 25px;
                         width: 25px;
                         border-radius: 50%;
-                        text-shadow: 1px solid grey;
+                        box-shadow: 1px 1px #FBA083;
                       "
                     >{{ index + 1 }}</span>
 
-                    <v-col cols="4" align-self="start" class="pa-0 my-2">
+                    <v-col cols="5" align-self="start" class="pa-0 my-2">
                       <v-img :src="prep.stepImg" class="rounded" max-width="400px"></v-img>
                     </v-col>
 
                     <v-col
                       cols="8"
                       align-self="center"
-                      class="d-flex flex-shrink-1 justify-center"
+                      class="d-flex flex-shrink-1 justify-center pr-md-6"
                     >
-                      <p>{{ prep.step }}</p>
+                      <p class="text-textGray">{{ prep.step }}</p>
                     </v-col>
 
                   </v-card>

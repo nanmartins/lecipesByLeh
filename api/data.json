@@ -440,81 +440,54 @@
       "id": "panqueca-americana",
       "title": "Panqueca Americana",
       "img": "https://claudia.abril.com.br/wp-content/uploads/2020/02/panqueca-americana.jpg?quality=85&strip=info",
-      "servings": "8 porções",
-      "prepTime": "30min",
-      "category": ["Carnes", "Molhos"],
-      "date": "21/08/2023",
+      "servings": "4 porções",
+      "prepTime": "25min",
+      "category": ["Doces", "Sobremesas"],
+      "date": "22/08/2023",
       "ingredients": [
-        "1kg de patinho cortado em tirinhas",
-        "1 cebola picada",
-        "2 dentes de alho picado ou amassado",
-        "3 xícaras de chá de creme de leite fresco (500 gramas)",
-        "1/2 xícara de chá de extrato de tomate",
-        "2 colheres de sopa de molho inglês",
-        "1/4 xícara de chá de conhaque",
-        "1 colher de café (bem cheia) de mostarda",
-        "300 gramas de cogumelo paris fresco cortado em fatias",
-        "3 colheres de sopa de azeite de oliva",
-        "Sal a e pimenta-do-reino a gosto"
+        "1 e ¼ de xícara de chá de farinha de trigo",
+        "1 colher de sopa de açúcar",
+        "3 colheres de chá de fermento em pó",
+        "Sal",
+        "2 ovos",
+        "1 xícara de chá de leite",
+        "2 colheres de sopa de manteiga",
+        "Óleo"
       ],
       "ingredientsExtra": {},
       "prep": [
         {
           "step": "Reúna todos os ingredientes.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-01-730x548.jpeg.webp"
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/panqueca-americana-01-730x548.jpg.webp"
         },
         {
-          "step": "Em uma frigideira grande e alta (ou panela), esquente um fio de azeite e refogue os cogumelos até dourarem. Cuidado: não deixe eles murcharem muito.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-02-730x548.jpeg.webp"
+          "step": "Em uma vasilha, misture a farinha, o açúcar, o fermento e o sal.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/panqueca-americana-02-730x548.jpg.webp"
         },
         {
-          "step": "Assim que dourarem, reserve em um recipiente.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-03-730x548.jpeg.webp"
+          "step": "Em outra vasilha, mistures os ovos, o leite e a manteiga derretida.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/panqueca-americana-03-730x548.jpg.webp"
         },
         {
-          "step": "Na mesma frigideira, coloque mais um fio de azeite e adicione a carne para dourar. Faça esse processo com pequenas porções da carne e não mexa.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-04-730x548.jpeg.webp"
+          "step": "Mistures os conteúdos das duas vasilhas e mexa até que a massa não fique muito líquida e escorra lentamente.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/panqueca-americana-04-730x548.jpg.webp"
         },
         {
-          "step": "Assim que toda a carne dourar bem, reserve com os cogumelos.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-05-730x548.jpeg.webp"
+          "step": "Unte uma frigideira com óleo e coloque-a no fogo.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/panqueca-americana-05-730x548.jpg.webp"
         },
         {
-          "step": "Ainda na mesma frigideira, regue com mais azeite e refogue a cebola e o alho até dourarem.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-06-730x548.jpeg.webp"
+          "step": "Coloque cerca de ¼ de xícara da massa no centro da frigideira e asse até dourar os dois lados.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/panqueca-americana-06-730x548.jpg.webp"
         },
         {
-          "step": "Adicione o conhaque. Mexa até evaporar e deixar o refogado cremoso.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-07-730x548.jpeg.webp"
-        },
-        {
-          "step": "Enquanto isso, tempere a carne e os cogumelos com sal e pimenta.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-08-730x548.jpeg.webp"
-        },
-        {
-          "step": "Na frigideira, acrescente o extrato de tomate, o molho inglês e a mostarda. Misture bem.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-09-730x548.jpeg.webp"
-        },
-        {
-          "step": "Junte a carne e os cogumelos com o refogado e misture bem.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-10-730x548.jpeg.webp"
-        },
-        {
-          "step": "Despeje o creme de leite fresco, misture, acerte o sal se precisar e desligue o fogo.",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-11-730x548.jpeg.webp"
-        },
-        {
-          "step": "Agora é só servir. Bom apetite!",
-          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-12-730x548.jpeg.webp"
+          "step": "Sirva com o acompanhamento de sua preferência bom apetite!",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/panqueca-americana-07-730x548.jpg.webp"
         }
       ],
       "prepExtra": {},
       "tips": [
-        "O segredo para cortar a carne em tiras é olhar a direção da fibra da carne e cortar as tiras na direção contrária. Dessa forma ela ficará mais macia.",
-        "E se preferir utilizar outro corte de carne, como alcatra ou outro de sua preferência.",
-        "No caso de não ter cogumelos paris frescos, você pode substituir por champignon em conserva.",
-        "Esse preparo fica incrível com o creme de leite fresco, mas se não tiver ou encontrar, use o creme de leite em lata.",
-        "O strogonoff clássico pede os acompanhamentos tradicionais, por isso sirva ele com batatas palha ou batata frita, mantendo o preparo clássico aqui no Brasil."
+        "Sirva a panqueca acompanhada de mel, geleias, chocolate, frutas, sorvetes e o que mais sua imaginação permitir. Bom apetite!"
       ]
     }
   ]

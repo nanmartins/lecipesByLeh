@@ -25,7 +25,8 @@ export default createVuetify({
           details: '#FBA083',
           details2: '#FFB4A2',
           backgrounds: '#FFDDD1',
-          backgrounds2: '#EDEDE9'
+          backgrounds2: '#EDEDE9',
+          textGray: '#989898'
         },
       },
     },

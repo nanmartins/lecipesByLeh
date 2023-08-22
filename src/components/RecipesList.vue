@@ -16,6 +16,7 @@
             <v-card
               class="d-flex flex-column mx-1 mb-4 bg-details2 px-1 pt-1"
               :style="{ width: breakpointsStore.screenSize >= 960 ? '350px' : '180px' }"
+              style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.5) 20% 85%,rgba(255, 255, 255, 0.05)"
             >
               <v-img
                 :src="recipe.img"
