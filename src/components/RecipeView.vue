@@ -60,6 +60,48 @@
 
             </div>
 
+            <!-- Prep guide -->
+            <div>
+              <h1>Modo de preparo:</h1>
+
+              <ul>
+                <v-list
+                  v-for="(prep, index) in recipe.prep"
+                  :key="prep.id"
+                  class="bg-backgrounds2 pa-0 ma-0 rounded"
+                >
+                  <v-card class="d-flex pa-0 ma-0 rounded-0" :class="{ 'bg-backgrounds2' : index % 2 === 0}">
+                    <span
+                      class="text-primary bg-secondary"
+                      style="
+                        position: relative;
+                        top: 15px;
+                        left: 30px;
+                        z-index: 1000;
+                        height: 25px;
+                        width: 25px;
+                        border-radius: 50%;
+                      "
+                    >{{ index + 1 }}</span>
+
+                    <v-col cols="4" align-self="start" class="pa-0 my-2">
+                      <v-img :src="prep.stepImg" class="rounded" max-width="400px"></v-img>
+                    </v-col>
+
+                    <v-col
+                      cols="8"
+                      align-self="center"
+                      class="d-flex flex-shrink-1 justify-center"
+                    >
+                      <p>{{ prep.step }}</p>
+                    </v-col>
+
+                  </v-card>
+                </v-list>
+              </ul>
+
+            </div>
+
           </v-card>
 
       </v-col>
