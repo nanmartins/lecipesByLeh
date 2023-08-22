@@ -64,15 +64,15 @@
             <div>
               <h1>Modo de preparo:</h1>
 
-              <ul>
+              <ul style="border: 1px solid #E3FFC3"  class="rounded">
                 <v-list
                   v-for="(prep, index) in recipe.prep"
                   :key="prep.id"
-                  class="bg-backgrounds2 pa-0 ma-0 rounded"
+                  class="bg-backgrounds2 pa-0 ma-0"
                 >
                   <v-card class="d-flex pa-0 ma-0 rounded-0" :class="{ 'bg-backgrounds2' : index % 2 === 0}">
                     <span
-                      class="text-primary bg-secondary"
+                      class="text-details bg-primary font-weight-bold text-center"
                       style="
                         position: relative;
                         top: 15px;
@@ -81,6 +81,7 @@
                         height: 25px;
                         width: 25px;
                         border-radius: 50%;
+                        text-shadow: 1px solid grey;
                       "
                     >{{ index + 1 }}</span>
 
