@@ -81,7 +81,7 @@
             <!-- Prep guide -->
             <div>
               <h1
-                class="text-primary"
+                class="text-primary py-2 text-h5 text-md-h4 font-weight-bold"
                 style="text-shadow: 1px 1px grey;"
               >Modo de preparo:</h1>
 
@@ -91,7 +91,10 @@
                   :key="prep.id"
                   class="bg-backgrounds2 pa-0 ma-0"
                 >
-                  <v-card class="d-flex pa-0 ma-0 rounded-0" :class="{ 'bg-backgrounds2' : index % 2 === 0}">
+                  <v-card
+                    class="d-flex pa-0 ma-0 rounded-0"
+                    :class="{ 'bg-backgrounds2' : index % 2 === 0}"
+                  >
                     <span
                       class="text-details bg-primary font-weight-bold text-center"
                       style="
@@ -99,7 +102,7 @@
                         top: 15px;
                         left: 30px;
                         z-index: 1000;
-                        height: 25px;
+                        height: 22px;
                         width: 25px;
                         border-radius: 50%;
                         box-shadow: 1px 1px #FBA083;
@@ -121,6 +124,54 @@
                   </v-card>
                 </v-list>
               </ul>
+
+              <!-- Extra prep guide (case has any) -->
+              <div v-if="recipe.prepExtra">
+                <h1
+                  class="text-primary py-2 text-h5 text-md-h4 font-weight-bold"
+                  style="text-shadow: 1px 1px grey;"
+                >{{ recipe.prepExtra.title }}</h1>
+
+                <ul style="border: 1px solid #E3FFC3" class="rounded">
+                  <li
+                    v-for="(prep, index) in recipe.prepExtra.prep"
+                    :key="prep.id"
+                    class="bg-backgrounds2 pa-0 ma-0"
+                  >
+                    <v-card
+                      class="d-flex pa-0 ma-0 rounded-0"
+                      :class="{ 'bg-backgrounds2' : index % 2 === 0}"
+                    >
+                      <span
+                        class="text-details bg-primary font-weight-bold text-center"
+                        style="
+                          position: relative;
+                          top: 15px;
+                          left: 30px;
+                          z-index: 1000;
+                          height: 22px;
+                          width: 25px;
+                          border-radius: 50%;
+                          box-shadow: 1px 1px #FBA083;
+                        "
+                      >{{ index + 1 }}</span>
+
+                      <v-col cols="5" align-self="start" class="pa-0 my-2">
+                        <v-img :src="prep.stepImg" class="rounded" max-width="400px"></v-img>
+                      </v-col>
+
+                      <v-col
+                        cols="8"
+                        align-self="center"
+                        class="d-flex flex-shrink-1 justify-center pr-md-6"
+                      >
+                        <p class="text-textGray">{{ prep.step }}</p>
+                      </v-col>
+
+                    </v-card>
+                  </li>
+                </ul>
+              </div>
 
             </div>
 

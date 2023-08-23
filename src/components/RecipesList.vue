@@ -6,7 +6,7 @@
         style="text-shadow: 1px 1px grey;"
       >Receitas Recentes</h1>
 
-      <v-row dense class="d-flex flex-wrap justify-center px-0">
+      <v-row dense class="d-flex flex-wrap justify-center px-2 px-md-4">
         <div
           v-for="(recipe) in recentRecipes"
           :key="recipe.id"
