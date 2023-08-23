@@ -13,7 +13,14 @@
         v-for="(recipe) in recipes"
         :key="recipe.id"
       >
-        <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
+        <RecipesCards :recipe="recipe" />
+      </div>
+    </v-row>
+
+  </v-responsive>
+
+
+        <!-- <router-link :to="`/recipe/${recipe.id}`" class="text-decoration-none">
           <v-card
             class="d-flex flex-column mx-1 mb-4 bg-details2 px-1 pt-1"
             :style="{ width: breakpointsStore.screenSize >= 960 ? '350px' : '180px' }"
@@ -29,27 +36,22 @@
               style="text-shadow: 1px 1px grey"
             >{{ recipe.title }}</v-card-title>
           </v-card>
-        </router-link>
-
-      </div>
-    </v-row>
-
-  </v-responsive>
+        </router-link> -->
 </template>
 
 <script setup>
-import { useBreakpointsStore } from '@/store/breakpoints.js'
-import { computed, ref, onBeforeUnmount } from 'vue'
+// import { useBreakpointsStore } from '@/store/breakpoints.js'
+import { computed, ref } from 'vue'
 import api from '../../api/data.json'
+import RecipesCards from '@/components/RecipesCards.vue'
 
 const recipes = ref(api.recipes)
 
 // Breakpoint Store
-const breakpointsStore = useBreakpointsStore()
-breakpointsStore.startResizeListener()
+// const breakpointsStore = useBreakpointsStore()
 
-onBeforeUnmount(() => {
-  breakpointsStore.stopResizeListener()
-})
+// onBeforeUnmount(() => {
+//   breakpointsStore.stopResizeListener()
+// })
 
 </script>

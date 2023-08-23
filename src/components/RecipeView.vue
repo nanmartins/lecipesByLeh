@@ -85,7 +85,10 @@
                 style="text-shadow: 1px 1px grey;"
               >Modo de preparo:</h1>
 
-              <ul style="border: 1px solid #E3FFC3"  class="rounded">
+              <ul
+                style="border: 1px solid #E3FFC3"
+                class="rounded"
+              >
                 <v-list
                   v-for="(prep, index) in recipe.prep"
                   :key="prep.id"
@@ -126,13 +129,16 @@
               </ul>
 
               <!-- Extra prep guide (case has any) -->
-              <div v-if="recipe.prepExtra">
+              <div v-if="recipe.prepExtra" class="pb-2">
                 <h1
                   class="text-primary py-2 text-h5 text-md-h4 font-weight-bold"
                   style="text-shadow: 1px 1px grey;"
                 >{{ recipe.prepExtra.title }}</h1>
 
-                <ul style="border: 1px solid #E3FFC3" class="rounded">
+                <ul
+                  class="rounded"
+                  style="border: 1px solid #E3FFC3"
+                >
                   <li
                     v-for="(prep, index) in recipe.prepExtra.prep"
                     :key="prep.id"
