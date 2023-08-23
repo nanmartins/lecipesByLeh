@@ -10,9 +10,7 @@
         v-for="(recipe) in recentRecipes"
         :key="recipe.id"
       >
-
         <RecipesCards :recipe="recipe" />
-
       </div>
     </v-row>
 

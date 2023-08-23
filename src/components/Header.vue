@@ -5,18 +5,25 @@
 
         <v-row no-gutters>
           <v-col cols="12" class="d-flex align-center justify-center">
-
             <router-link to="/">
               <v-img :src="LogoHeader" class="logo-img"></v-img>
             </router-link>
-
           </v-col>
-          <hr w-100 color="secondary">
+
           <v-col class="d-flex align-center justify-center">
             <div>
               <router-link
                 to="/recipes"
-                class="px-2 py-2 text-secondary text-decoration-none text-caption text-md-overline"
+                class="
+                  px-2
+                  py-2
+                  text-details2
+                  text-decoration-none
+                  font-italic
+                  font-weight-bold
+                  text-caption
+                  text-md-subtitle-1
+                "
               >RECEITAS
               </router-link>
               <!-- <router-link
