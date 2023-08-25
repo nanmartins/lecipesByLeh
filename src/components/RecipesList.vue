@@ -69,23 +69,11 @@
 </template>
 
 <script setup>
-import { useBreakpointsStore } from '@/store/breakpoints.js'
 import { computed, ref } from 'vue'
 import api from '../../api/data.json'
 import RecipesCards from './RecipesCards.vue'
 
 const recipes = ref(api.recipes)
-
-// Breakpoint store
-// const breakpointsStore = useBreakpointsStore()
-// const screenSize = breakpointsStore.screenSize
-
-
-// breakpointsStore.startResizeListener()
-
-// onBeforeUnmount(() => {
-//   breakpointsStore.stopResizeListener()
-// })
 
 // Ordering by latest first
 const recentRecipes = computed(() => {

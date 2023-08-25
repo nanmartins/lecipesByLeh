@@ -26,11 +26,6 @@
                 "
               >RECEITAS
               </router-link>
-              <!-- <router-link
-                to="/categories"
-                class="text-secondary text-decoration-none text-caption text-md-overline"
-              >CATEGORIAS
-              </router-link> -->
             </div>
           </v-col>
         </v-row>
