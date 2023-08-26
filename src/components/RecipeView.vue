@@ -6,7 +6,7 @@
           <v-card
             max-width="1200px"
             class="mx-auto px-1 px-md-2 py-1 bg-details2"
-            style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.5) 20% 85%,rgba(255, 255, 255, 0.05)"
+            style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.3) 20% 85%,rgba(255, 255, 255, 0.05)"
           >
             <v-img
               :src="recipe.img"

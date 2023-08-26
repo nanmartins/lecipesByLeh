@@ -10,11 +10,14 @@
         v-for="(category) in uniqueCategories"
         :key="category"
         :to="`/categories/${category}`"
+        class="text-decoration-none"
       >
         <v-btn
           flat
-          class="mx-2 my-2 bg-details2 text-primary"
-          style="text-shadow: 1px 1px grey;"
+          class="mx-2 my-2 bg-primary text-details"
+          style="
+            border: 1px solid #FBA083;
+          "
         >
           {{ category }}
         </v-btn>

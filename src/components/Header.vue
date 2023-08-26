@@ -24,7 +24,8 @@
                   text-caption
                   text-md-subtitle-1
                 "
-              >RECEITAS
+              >
+                <v-btn>Receitas</v-btn>
               </router-link>
             </div>
           </v-col>
