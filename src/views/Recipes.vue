@@ -3,6 +3,8 @@
     max-width="1200px"
     class="text-center mx-auto"
   >
+    <CategoriesLinks />
+
     <h1
       class="text-details2"
       style="text-shadow: 1px 1px grey"
@@ -17,6 +19,7 @@
       </div>
     </v-row>
 
+
   </v-responsive>
 </template>
 
@@ -25,6 +28,7 @@
 import { computed, ref } from 'vue'
 import api from '../../api/data.json'
 import RecipesCards from '@/components/RecipesCards.vue'
+import CategoriesLinks from '@/components/CategoriesLinks.vue'
 
 const recipes = ref(api.recipes)
 
