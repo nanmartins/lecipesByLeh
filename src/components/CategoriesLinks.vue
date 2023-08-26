@@ -13,7 +13,7 @@
       >
         <v-btn
           flat
-          class="mx-2 bg-details2 text-primary"
+          class="mx-2 my-2 bg-details2 text-primary"
           style="text-shadow: 1px 1px grey;"
         >
           {{ category }}

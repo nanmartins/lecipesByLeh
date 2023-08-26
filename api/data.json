@@ -6,7 +6,7 @@
       "img": "https://assets.unileversolutions.com/recipes-v2/67405.jpg",
       "servings": "10 a 12 porções",
       "prepTime": "60min",
-      "category": ["Bolos", "Sobremesas", "Doces"],
+      "category": ["Bolos", "Doces"],
       "date": "18/08/2023",
       "ingredients": [
         "3 cenouras médias (cerca de 360 gramas) descascadas e cortadas em rodelas",
@@ -88,7 +88,7 @@
       "img": "https://ciadereceitas.com.br/wp-content/uploads/2023/07/arroz-doce-cremoso-com-coco-uma-sobremesa-tradicional-e-classica-para-saborear.webp",
       "servings": "6 porções",
       "prepTime": "40min",
-      "category": ["Sobremesas", "Doces"],
+      "category": ["Doces"],
       "date": "20/08/2023",
       "ingredients": [
         "2 xícaras de chá de arroz",
@@ -312,7 +312,7 @@
       "img": "https://receitatodahora.com.br/wp-content/uploads/2022/08/bolo-de-banana-de-liquidificador-facil.jpg",
       "servings": "8 porções",
       "prepTime": "70min",
-      "category": ["Bolos", "Doces", "Sobremesas"],
+      "category": ["Bolos", "Doces"],
       "date": "21/08/2023",
       "ingredients": [
         "5 bananas (reserve uma para decorar)",
@@ -442,7 +442,7 @@
       "img": "https://claudia.abril.com.br/wp-content/uploads/2020/02/panqueca-americana.jpg?quality=85&strip=info",
       "servings": "4 porções",
       "prepTime": "25min",
-      "category": ["Doces", "Sobremesas"],
+      "category": ["Doces"],
       "date": "22/08/2023",
       "ingredients": [
         "1 e ¼ de xícara de chá de farinha de trigo",
@@ -488,6 +488,74 @@
       "prepExtra": {},
       "tips": [
         "Sirva a panqueca acompanhada de mel, geleias, chocolate, frutas, sorvetes e o que mais sua imaginação permitir. Bom apetite!"
+      ]
+    },
+
+    {
+      "id": "espaguete-carbonara",
+      "title": "Espaguete à Carbonara",
+      "img": "https://receitadodia.com/wp-content/uploads/2022/09/espaguete-a-carbonara.jpg",
+      "servings": "4 porções",
+      "prepTime": "40min",
+      "category": ["Massas", "Molhos"],
+      "date": "26/08/2023",
+      "ingredients": [
+        "350 gramas de macarrão espaguete",
+        "4 a 6 tiras grandes de bacon defumado (ou bacon a gosto)",
+        "3 ovos",
+        "1 gema",
+        "200 gramas queijo minas curado ralados",
+        "Pimenta-do-reino a gosto"
+      ],
+      "ingredientsExtra": {},
+      "prep": [
+        {
+          "step": "Reúna todos os ingredientes.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-01-730x548.jpeg.webp"
+        },
+        {
+          "step": "Corte o bacon em tirinhas menores e reserve.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-02-730x548.jpeg.webp"
+        },
+        {
+          "step": "Em uma panela grande, encha com água e deixe ferver.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-03-730x548.jpeg.webp"
+        },
+        {
+          "step": "Assim que começar a ferver, coloque uma colher de chá (bem cheia) de sal e deixe continuar fervendo.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-04-730x548.jpeg.webp"
+        },
+        {
+          "step": "Em um recipiente, coloque os ovos, o queijo e a pimenta. Misture bem e reserve.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-05-730x548.jpeg.webp"
+        },
+        {
+          "step": "Em uma frigideira, coloque as tirinhas de bacon, leve ao fogo baixo e deixe ele fritar na própria gordura até ficar bem fritinho e crocante.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-06-730x548.jpeg.webp"
+        },
+        {
+          "step": "Coloque o macarrão na panela com água fervente e deixe cozinhar até ficar al dente (verifique o tempo de cozimento do fabricante).",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-07-730x548.jpeg.webp"
+        },
+        {
+          "step": "Assim que a massa ficar pronta e o bacon bem fritinho, transfira o macarrão para a frigideira com o bacon e a gordura, adicione 2 conchas da água do cozimento e misture bem até o macarrão incorporar bem com a gordura.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-08-730x548.jpeg.webp"
+        },
+        {
+          "step": "Junte a mistura de ovos e queijo e misture bem rapidamente.",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-09-730x548.jpeg.webp"
+        },
+        {
+          "step": "Desligue o fogo e transfira o macarrão para um refratário. Agora é só servir. Bom apetite!",
+          "stepImg": "https://www.receiteria.com.br/wp-content/uploads/espaguete-a-carbonara-10-730x548.jpeg.webp"
+        }
+
+      ],
+      "prepExtra": {},
+      "tips": [
+        "Se você é apaixonado por macarrão, confira os ingredientes e o modo de preparo desse espaguete à carbonara, que pode ser servido tanto no almoço quanto no jantar.",
+        "Se quiser um carbonara com uma quantidade maior de molho, adicione 1 ovo e 1 concha de água do cozimento da massa a mais.",
+        "Ao invés de bacon, você pode usar pancetta ou ganciale, que também vai deixar a receita deliciosa."
       ]
     }
   ]

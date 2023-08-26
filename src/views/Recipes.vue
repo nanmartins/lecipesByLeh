@@ -6,11 +6,11 @@
     <CategoriesLinks />
 
     <h1
-      class="text-details2"
+      class="text-details2 py-4"
       style="text-shadow: 1px 1px grey"
     >Receitas</h1>
 
-    <v-row dense class="d-flex flex-wrap justify-center px-0 pt-4">
+    <v-row dense class="d-flex flex-wrap justify-center px-0 pt-2">
       <div
         v-for="(recipe) in recipes"
         :key="recipe.id"
