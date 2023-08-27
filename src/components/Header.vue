@@ -3,7 +3,7 @@
     <v-container class="py-2 px-0">
       <v-responsive>
 
-        <v-row no-gutters>
+        <v-row no-gutters class="pt-1">
           <v-col cols="12" class="d-flex align-center justify-center">
             <router-link to="/">
               <v-img :src="LogoHeader" class="logo-img"></v-img>
@@ -16,7 +16,6 @@
                 to="/recipes"
                 class="
                   px-2
-                  py-2
                   text-details2
                   text-decoration-none
                   font-italic

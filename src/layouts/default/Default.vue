@@ -1,7 +1,7 @@
 <template>
   <v-app class="bg-primary">
     <Header />
-    <default-view />
+    <default-view class="fill-height" />
     <Footer />
   </v-app>
 </template>
