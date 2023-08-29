@@ -9,5 +9,6 @@
 <style>
   body {
     background: #E3FFC3;
+    overflow-y: hidden;
   }
 </style>
