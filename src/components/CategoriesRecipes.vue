@@ -1,5 +1,7 @@
 <template>
   <v-responsive class="align-center text-center mx-auto" max-width="1200px">
+
+    <SearchInput />
     <div>
 
       <CategoriesLinks />
@@ -22,8 +24,9 @@
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import api from '../../api/data.json'
-import RecipesCards from '@/components/RecipesCards.vue'
-import CategoriesLinks from '@/components/CategoriesLinks.vue'
+import RecipesCards from './RecipesCards.vue'
+import CategoriesLinks from './CategoriesLinks.vue'
+import SearchInput from './SearchInput.vue'
 
 const route = useRoute()
 

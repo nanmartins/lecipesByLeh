@@ -3,6 +3,7 @@
     max-width="1200px"
     class="text-center mx-auto"
   >
+    <SearchInput />
     <CategoriesLinks />
 
     <h1
@@ -29,7 +30,7 @@ import { computed, ref } from 'vue'
 import api from '../../api/data.json'
 import RecipesCards from '@/components/RecipesCards.vue'
 import CategoriesLinks from '@/components/CategoriesLinks.vue'
-
+import SearchInput from '@/components/SearchInput.vue'
 const recipes = ref(api.recipes)
 
 // Breakpoint Store
