@@ -1,18 +1,38 @@
 <template>
-  <v-responsive
-    max-width="1200px"
-    class="text-center mx-auto"
+  <v-card
+    class="mx-auto"
+    color="primary"
+    max-width="400"
+    flat
   >
-    <v-text-field placeholder="Procurar..." class="text-details w-75 mx-auto">
-      <template v-slot:append>
-        <v-icon color="primary" class="bg-details2 pa-7" style="opacity: 1;">
-          mdi-magnify
-        </v-icon>
-      </template>
-    </v-text-field>
-  </v-responsive>
+    <v-card-text>
+      <v-text-field
+        :loading="loading"
+        density="compact"
+        variant="solo"
+        label="Buscar receitas..."
+        append-inner-icon="mdi-magnify"
+        single-line
+        hide-details
+        @click:append-inner="onClick"
+        class="text-details2 bg-primary"
+      ></v-text-field>
+    </v-card-text>
+  </v-card>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 
+const loaded = ref(false)
+const loading = ref(false)
+
+const onClick = () => {
+  loading.value = true
+
+  setTimeout(() => {
+    loading.value = false
+    loaded.value = true
+  }, 2000);
+}
 </script>
