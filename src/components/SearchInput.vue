@@ -9,13 +9,13 @@
       <v-text-field
         :loading="loading"
         density="compact"
-        variant="solo"
         label="Buscar receitas..."
         append-inner-icon="mdi-magnify"
+        color="details2"
+        class="text-details"
         single-line
         hide-details
         @click:append-inner="onClick"
-        class="text-details2 bg-primary"
       ></v-text-field>
     </v-card-text>
   </v-card>
@@ -36,3 +36,7 @@ const onClick = () => {
   }, 2000);
 }
 </script>
+
+<style scoped>
+
+</style>
