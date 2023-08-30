@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="bg-primary mt-6 pa-0 mx-0" sticky-footer>
+  <v-footer class="bg-primary mt-10 pa-0 mx-0" sticky-footer>
     <v-row
       no-gutters
       class="justify-center"
