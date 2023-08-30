@@ -2,16 +2,16 @@
   <v-card
     class="mx-auto"
     color="primary"
-    max-width="400"
+    max-width="600"
     flat
   >
     <v-card-text>
       <v-text-field
         :loading="loading"
         density="compact"
+        variant="outlined"
         label="Buscar receitas..."
         append-inner-icon="mdi-magnify"
-        color="details2"
         class="text-details"
         single-line
         hide-details

@@ -1,5 +1,5 @@
 <template>
-    <v-responsive class="d-flex justify-center align-center text-center fill-height">
+    <v-responsive class="d-flex justify-center text-center">
       <v-col>
         <!-- <h2>{{ recipe.title }}</h2> -->
         <!-- <div class="mx-auto"> -->

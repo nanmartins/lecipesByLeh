@@ -1,6 +1,6 @@
 <template>
   <!-- <v-container class="fill-height"> -->
-    <v-responsive>
+    <v-responsive class="fill-height">
       <RecipesList />
     </v-responsive>
   <!-- </v-container> -->

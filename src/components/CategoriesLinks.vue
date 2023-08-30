@@ -14,9 +14,11 @@
       >
         <v-btn
           flat
-          class="mx-2 my-2 bg-primary text-details"
+          class="mx-2 my-2 bg-primary text-details text-caption text-md-button text-uppercase"
+          height="30px"
           style="
             border: 1px solid #FBA083;
+            opacity: 0.65;
           "
         >
           {{ category }}
