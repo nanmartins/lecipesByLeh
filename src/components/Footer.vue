@@ -13,7 +13,7 @@
         <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4 text-primary"
+          class="mx-4 my-2 text-primary"
           :icon="icon"
           variant="plain"
           size="small"

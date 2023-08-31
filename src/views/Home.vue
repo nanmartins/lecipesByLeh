@@ -1,6 +1,8 @@
 <template>
   <!-- <v-container class="fill-height"> -->
-    <v-responsive class="fill-height">
+    <v-responsive>
+      <HomeBanner class="py-4"/>
+      <SearchInput />
       <RecipesList />
     </v-responsive>
   <!-- </v-container> -->
@@ -8,4 +10,6 @@
 
 <script setup>
 import RecipesList from '@/components/RecipesList.vue'
+import HomeBanner from '@/components/HomeBanner.vue'
+import SearchInput from '@/components/SearchInput.vue'
 </script>
