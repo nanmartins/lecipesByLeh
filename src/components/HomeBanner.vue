@@ -1,12 +1,19 @@
 <template>
   <v-responsive>
-    <div
-      class="d-flex align-center justify-space-between px-2 px-md-4 py-4 mx-2 mx-md-4 rounded"
-      style="border: 1px solid #FFB4A2"
-    >
-      <h1 class="px-4">Bem vindo ao meu livro de receitas digital</h1>
-      <v-img :src="HomeImg" height="500px" width="300px"></v-img>
-    </div>
+    <v-row class="align-center justify-center">
+
+      <v-col cols="6" md="4">
+        <h1
+          class="pl-6 text-details2 font-weight-bold text-md-h2"
+          style="text-shadow: 1px 1px grey"
+        >Bem vindos ao meu livro de receitas digital</h1>
+      </v-col>
+
+      <v-col cols="6" md="4">
+        <v-img :src="HomeImg" max-height="550px"></v-img>
+      </v-col>
+
+    </v-row>
   </v-responsive>
 </template>
 
