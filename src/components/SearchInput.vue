@@ -1,16 +1,16 @@
 <template>
   <v-card
-    class="mx-auto text-center"
+    class="text-center pt-4 pb-6 my-4 mx-2 mx-md-auto"
+    style="border: 1px solid #FFB4A2"
     color="primary"
     max-width="1200"
-    flat
   >
     <v-card-text>
       <v-text-field
         v-model="busca"
         :loading="loading"
         density="compact"
-        variant="underlined"
+        variant="outlined"
         label="Buscar receitas..."
         append-inner-icon="mdi-magnify"
         class="text-details mx-auto"
@@ -18,12 +18,13 @@
         single-line
         hide-details
         @click:append-inner="searchRecipes"
+        @keydown.enter="searchRecipes"
       ></v-text-field>
     </v-card-text>
 
     <h1
       v-if="recipesFilter.length > 0"
-      class="text-details2 py-2"
+      class="text-details2 py-2 font-italic"
       style="text-shadow: 1px 1px grey;"
     >Resultado da pesquisa:</h1>
 

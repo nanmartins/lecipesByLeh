@@ -4,7 +4,7 @@
 
       <v-col cols="6" md="4">
         <h1
-          class="pl-6 text-details2 font-weight-bold text-md-h2"
+          class="pl-6 text-details2 font-weight-black font-italic text-md-h2"
           style="text-shadow: 1px 1px grey"
         >Bem vindos ao meu livro de receitas digital</h1>
       </v-col>
