@@ -1,7 +1,7 @@
 <template>
   <v-responsive class="align-center text-center mx-auto" max-width="1200px">
     <h1
-      class="text-details2 py-4"
+      class="text-details2 py-4 font-italic"
       style="text-shadow: 1px 1px grey;"
     >Receitas Recentes</h1>
 

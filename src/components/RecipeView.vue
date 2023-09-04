@@ -4,7 +4,7 @@
         <!-- <h2>{{ recipe.title }}</h2> -->
         <!-- <div class="mx-auto"> -->
           <v-card
-            max-width="1200px"
+            max-width="1000px"
             class="mx-auto px-1 px-md-2 py-1 bg-details2"
             style="background: linear-gradient(to bottom, rgba(255, 180, 162, 0.7) 1%, rgba(255, 255, 255, 0.3) 20% 85%,rgba(255, 255, 255, 0.05)"
           >
@@ -14,7 +14,7 @@
               style="border: 1px solid #E3FFC3"
             ></v-img>
             <h2
-              class="text-h4 text-md-h3 text-primary py-2 font-weight-bold"
+              class="text-h4 text-md-h3 text-primary py-2 font-weight-bold font-italic"
               style="text-shadow: 1px 2px grey"
             >{{ recipe.title }}
             </h2>
@@ -81,7 +81,7 @@
             <!-- Prep guide -->
             <div>
               <h1
-                class="text-primary py-2 text-h5 text-md-h4 font-weight-bold"
+                class="text-primary py-2 text-h5 text-md-h4 font-weight-bold font-italic"
                 style="text-shadow: 1px 1px grey;"
               >Modo de preparo:</h1>
 
@@ -131,7 +131,7 @@
               <!-- Extra prep guide (case has any) -->
               <div v-if="recipe.prepExtra" class="pb-2">
                 <h1
-                  class="text-primary py-2 text-h5 text-md-h4 font-weight-bold"
+                  class="text-primary py-2 text-h5 text-md-h4 font-weight-bold font-italic"
                   style="text-shadow: 1px 1px grey;"
                 >{{ recipe.prepExtra.title }}</h1>
 
