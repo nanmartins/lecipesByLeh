@@ -1,5 +1,5 @@
 <template>
-  <v-responsive class="bg-details2" style="background: linear-gradient()">
+  <v-responsive class="bg-details2">
     <!-- <v-row class="align-center justify-center"> -->
 
       <v-container class="d-flex justify-center align-center">
@@ -10,7 +10,7 @@
               text-shadow: 1px 1px grey;
               line-height: 100%;
             "
-          >Livro de receitas digital da Leh.</h1>
+          >Bem vindos ao meu livro de receitas digital.</h1>
         </v-col>
 
         <v-col cols="6" md="4" lg="4" xl="3">

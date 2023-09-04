@@ -1,9 +1,9 @@
 <template>
   <v-card
-    class="text-center pb-6 my-6 mx-2 mx-md-auto"
-    style="border: 1px solid #FFB4A2"
+    class="text-center pb-2 my-6 mx-2 mx-md-auto"
     color="primary"
     max-width="1200"
+    flat
   >
     <v-card-text>
       <v-text-field
