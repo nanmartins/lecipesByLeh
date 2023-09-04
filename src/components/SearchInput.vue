@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="text-center pt-4 pb-6 my-4 mx-2 mx-md-auto"
+    class="text-center pb-6 my-6 mx-2 mx-md-auto"
     style="border: 1px solid #FFB4A2"
     color="primary"
     max-width="1200"

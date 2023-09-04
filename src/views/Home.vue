@@ -1,7 +1,7 @@
 <template>
   <!-- <v-container class="fill-height"> -->
     <v-responsive>
-      <HomeBanner class="pt-4 pb-8"/>
+      <HomeBanner class="pb-8"/>
       <SearchInput />
       <RecipesList />
     </v-responsive>
