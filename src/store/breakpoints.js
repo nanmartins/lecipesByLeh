@@ -3,7 +3,6 @@ import { defineStore } from 'pinia'
 
 export const useBreakpointsStore = defineStore('breakpoints', {
   state: () => ({
-    //
     screenSize: window.innerWidth
   }),
 

@@ -1,11 +1,9 @@
 <template>
-  <!-- <v-container class="fill-height"> -->
-    <v-responsive>
-      <HomeBanner class="pb-8"/>
-      <SearchInput />
-      <RecipesList />
-    </v-responsive>
-  <!-- </v-container> -->
+  <v-responsive>
+    <HomeBanner class="pb-8"/>
+    <SearchInput />
+    <RecipesList />
+  </v-responsive>
 </template>
 
 <script setup>
