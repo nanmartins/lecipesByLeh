@@ -11,7 +11,7 @@
         style="border: 1px solid #E3FFC3"
       ></v-img>
       <v-card-title
-        class="pa-0 ma-0 py-1 px-1 text-h6 text-md-h5 text-white font-weight-bold font-italic"
+        class="pa-0 ma-0 py-1 py-md-2 px-1 text-h6 text-md-h5 text-white font-weight-bold font-italic"
         style="text-shadow: 1px 1px grey"
       >{{ props.recipe.title }}</v-card-title>
     </v-card>

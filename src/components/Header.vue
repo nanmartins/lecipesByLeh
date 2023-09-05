@@ -21,7 +21,6 @@
                   font-italic
                   font-weight-bold
                   text-caption
-                  text-md-subtitle-1
                 "
               >
                 <v-btn>Receitas</v-btn>
@@ -44,7 +43,7 @@ import LogoHeader from '../assets/logo-header.png'
 }
 @media (max-width: 560px) {
   .logo-img {
-    width: 140px;
+    width: 150px;
   }
 }
 </style>

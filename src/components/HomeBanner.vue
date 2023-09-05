@@ -5,7 +5,7 @@
       <v-container class="d-flex justify-center align-center pt-8">
         <v-col cols="6" md="4" lg="4" xl="3">
           <h1
-            class="pl-2 text-primary font-weight-black font-italic text-md-h3 text-lg-h2"
+            class="text-primary font-weight-black font-italic text-md-h3 text-lg-h2"
             style="
               text-shadow: 1px 1px grey;
               line-height: 100%;

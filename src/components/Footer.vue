@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="bg-primary mt-10 pa-0 mx-0" sticky-footer>
+  <v-footer class="bg-primary mt-16 pa-0 mx-0" sticky-footer>
     <v-row
       no-gutters
       class="justify-center"
@@ -24,7 +24,7 @@
         cols="12"
         class="text-center py-2 text-details2 bg-primary"
       >
-        {{ new Date().getFullYear() }} — <strong>LecipesByLeh</strong>
+        © {{ new Date().getFullYear() }} — <strong>LecipesByLeh</strong>
       </v-col>
     </v-row>
   </v-footer>
