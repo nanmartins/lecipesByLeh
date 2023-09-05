@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="text-center pb-2 my-6 mx-2 mx-md-auto"
+    class="text-center mt-6 mx-2 mx-md-auto"
     color="primary"
     max-width="1200"
     flat
@@ -8,7 +8,6 @@
     <v-card-text>
       <v-text-field
         v-model="busca"
-        :loading="loading"
         density="compact"
         variant="outlined"
         label="Buscar receitas..."
@@ -22,23 +21,29 @@
       ></v-text-field>
     </v-card-text>
 
-    <h1
-      v-if="recipesFilter.length > 0"
-      class="text-details2 py-2 font-italic"
-      style="text-shadow: 1px 1px grey;"
-    >Resultado da pesquisa:</h1>
+    <div v-if="loading">
+      <Loading />
+    </div>
 
-    <v-row
-      v-if="recipesFilter.length > 0"
-      dense
-      class="d-flex flex-wrap justify-center px-2 px-md-4 pt-4 pb-6">
-      <div
-        v-for="(recipe) in recipesFilter"
-        :key="recipe.id"
-      >
-        <RecipesCards :recipe="recipe" />
-      </div>
-    </v-row>
+    <div>
+      <h1
+        v-if="recipesFilter.length > 0"
+        class="text-details2 py-2 font-italic"
+        style="text-shadow: 1px 1px grey;"
+      >Resultado da pesquisa:</h1>
+
+      <v-row
+        v-if="recipesFilter.length > 0"
+        dense
+        class="d-flex flex-wrap justify-center px-2 px-md-4 pt-4 pb-6">
+        <div
+          v-for="(recipe) in recipesFilter"
+          :key="recipe.id"
+        >
+          <RecipesCards :recipe="recipe" />
+        </div>
+      </v-row>
+    </div>
 
   </v-card>
 </template>
@@ -48,6 +53,7 @@ import { ref } from 'vue'
 import api from '../../api/data.json'
 import { useRouter } from 'vue-router'
 import RecipesCards from './RecipesCards.vue'
+import Loading from './Loading.vue'
 
 const busca = ref("")
 const recipesFilter = ref([])

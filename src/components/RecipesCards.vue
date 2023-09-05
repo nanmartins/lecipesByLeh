@@ -24,14 +24,15 @@
   import { onBeforeUnmount } from 'vue'
 
   const breakpointsStore = useBreakpointsStore()
+  const props = defineProps({
+    recipe: Object,
+  })
 
   breakpointsStore.startResizeListener()
 
   onBeforeUnmount(() => {
     breakpointsStore.stopResizeListener()
   })
-  const props = defineProps({
-    recipe: Object,
-  })
+
 
 </script>

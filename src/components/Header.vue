@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar class="px-2 px-md-10 px-lg-16 py-4 py-md-6 bg-primary">
+  <v-app-bar class="px-2 py-4 py-md-6 bg-primary">
     <v-container class="py-2 px-0">
       <v-responsive>
 
