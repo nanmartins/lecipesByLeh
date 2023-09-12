@@ -1,9 +1,9 @@
 <template>
-  <v-app-bar class="px-2 py-4 py-md-6 bg-primary">
+  <v-app-bar class="px-2 py-3 py-md-6 bg-primary">
     <v-container class="py-2 px-0">
       <v-responsive>
 
-        <v-row no-gutters class="pt-1">
+        <v-row no-gutters>
           <v-col cols="12" class="d-flex align-center justify-center">
             <router-link to="/">
               <v-img :src="LogoHeader" class="logo-img"></v-img>
@@ -18,12 +18,14 @@
                   px-2
                   text-details2
                   text-decoration-none
-                  font-italic
                   font-weight-bold
-                  text-caption
                 "
               >
-                <v-btn>Receitas</v-btn>
+                <v-btn
+                  class="px-2 py-0 my-0 text-caption"
+                  style="border: 1px solid #FFB4A2"
+                  height="22px"
+                >Receitas</v-btn>
               </router-link>
             </div>
           </v-col>

@@ -51,15 +51,15 @@
 <script setup>
 import { ref } from 'vue'
 import api from '../../api/data.json'
-import { useRouter } from 'vue-router'
 import RecipesCards from './RecipesCards.vue'
 import Loading from './Loading.vue'
+// import { useRouter } from 'vue-router'
 
 const busca = ref("")
 const recipesFilter = ref([])
 const loading = ref(false)
 
-const router = useRouter()
+// const router = useRouter()
 
 const searchRecipes = async () => {
   loading.value = true
